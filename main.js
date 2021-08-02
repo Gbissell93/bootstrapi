@@ -40,6 +40,7 @@ function getWeather() {
             console.log(data)
             weatherResults.innerHTML = 
             `<li id="cur-weather" class="card-body">
+            <h1> ${weatherInput.value}</h1>
             <div>Current temp ${data.temperature}</div>
             <div>current wind speed ${data.wind}</div> 
             <div> conditions are ${data.description}</div>
